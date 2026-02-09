@@ -74,18 +74,16 @@ output/
 
 **LÀM SAO ĐỂ CHẠY ĐƯỢC?**
 
-Script này cần Claude API key để hoạt động. Hiện tại API key KHÔNG được bao gồm trong code vì lý do bảo mật.
+Script này cần API key để hoạt động. Hiện tại API key KHÔNG được bao gồm trong code vì lý do bảo mật.
 
 ### Cách thêm API key:
 
-Mở file `pdf_to_excel_ai.py` và thêm API key vào headers:
+Mở file `.env.example` và thêm API key vào, sau đó rename thành `.env`
 
-```python
-headers = {
-    "Content-Type": "application/json",
-    "anthropic-version": "2023-06-01",
-    "x-api-key": "YOUR_API_KEY_HERE"  # ← THÊM DÒNG NÀY
-}
+```
+DEEPSEEK_API_KEY=""
+GEMINI_API_KEY=""
+CLAUDE_API_KEY=""
 ```
 
 ### Lấy API key:
