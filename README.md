@@ -100,6 +100,11 @@ python pdf_to_excel_ai.py NQ100-pl-1.pdf
 
 # Kết quả sẽ có trong thư mục output/
 ```
+![pdf_to_excel_ai](https://github.com/user-attachments/assets/56d8921e-aa4f-494a-8344-ddfbec00c562)
+
+![pdf_to_excel_ai2](https://github.com/user-attachments/assets/a71dede9-1c5f-44c6-905c-8b3fba61fa57)
+
+
 
 ## 🔍 Kiểm tra từng bước
 
