@@ -1,0 +1,7 @@
+pypdf
+pdf2image
+pillow
+requests
+openpyxl
+pandas
+google-genai
